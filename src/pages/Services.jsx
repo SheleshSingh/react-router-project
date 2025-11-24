@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import { Outlet } from "react-router";
 
 const Services = () => {
   return (
-    <div>Services</div>
-  )
-}
+    <>
+      <div>Services</div>
+      <Outlet />
+    </>
+  );
+};
 
-export default Services
+export default Services;
